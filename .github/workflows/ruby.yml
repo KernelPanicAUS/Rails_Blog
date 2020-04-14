@@ -9,13 +9,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Ruby 2.6
+    - name: Set up Ruby 2.7
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.7.x
     - name: Build and test with Rake
       run: |
         sudo apt install -y postgresql-contrib libpq-dev libsqlite3-dev
-        gem install bundler
+        gem install bundler -v '1.17.3'
         bundle install --jobs 4 --retry 3
         bundle exec rake -T
