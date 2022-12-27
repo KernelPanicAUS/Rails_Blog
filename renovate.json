@@ -7,21 +7,14 @@
       ":semanticCommits"
    ],
    "rebaseStalePrs":true,
+   "ruby":{
+      "fileMatch":[
+         "(^|/)Gemfile$",
+         "(^|/)Gemfile.lock$"
+      ]
+   },
    "packageRules":[
       {
-         "ruby":{
-            "fileMatch":[
-               "(^|/)Gemfile$",
-               "(^|/)Gemfile.lock$"
-            ],
-            "automerge":true
-         }
-      },
-      {
-         "fileMatch":[
-            "^(workflow-templates|\\.github\\/workflows)\\/[^/]+\\.ya?ml$",
-            "(^|\\/)action\\.ya?ml$"
-         ],
          "updateTypes":[
             "minor",
             "patch",
