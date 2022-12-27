@@ -10,13 +10,7 @@
    "packageRules": [
       {
          "matchDepTypes": ["dependencies"], 
-         "rangeStrategy": "pin", 
-         "updateTypes": [
-            "minor",
-            "patch",
-            "digest",
-            "pin"
-         ],
+         "rangeStrategy": "pin",
          "automerge": true
       }
    ],
