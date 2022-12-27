@@ -22,6 +22,9 @@ on:
 jobs:
   automerge:
     runs-on: ubuntu-latest
+    permissions:
+      checks: read
+      contents: write
     steps:
       - name: automerge
         uses: "pascalgn/automerge-action@eb68b061739cb9d81564f8e812d0b3c45f0fb09a" # v0.15.5
