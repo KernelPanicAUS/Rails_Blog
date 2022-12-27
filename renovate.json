@@ -7,7 +7,7 @@
       ":semanticCommits"
    ],
    "rebaseStalePrs":true,
-   "bundler": { "enabled": true }
+   "bundler": { "enabled": true },
    "packageRules":[
       {
          "updateTypes":[
