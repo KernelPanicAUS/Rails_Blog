@@ -7,7 +7,7 @@
       ":semanticCommits"
    ],
    "rebaseStalePrs":true,
-   "rubygems":{
+   "ruby-version":{
       "fileMatch":[
          "(^|/)Gemfile$",
          "(^|/)Gemfile.lock$"
