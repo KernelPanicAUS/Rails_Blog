@@ -13,7 +13,6 @@
         "(^|/)Gemfile$",
         "(^|/)Gemfile.lock$"
       ],
-    "versioning": "ruby",
       "updateTypes": [
         "minor",
         "patch",
@@ -23,5 +22,8 @@
       "automerge": true
     },
   ],
-  "labels": ["renovate", "dependency-update"]
+  "labels": [
+    "renovate",
+    "dependency-update"
+  ]
 }
