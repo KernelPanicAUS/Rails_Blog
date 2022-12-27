@@ -9,7 +9,9 @@
   "rebaseStalePrs": true,
   "packageRules": [
    {
-      "versioning": "ruby"
+      "matchDatasources": "ruby",
+      "versioning": "ruby",
+      "automerge": true
     },
     {
       "fileMatch": [
