@@ -1,36 +1,38 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "helpers:pinGitHubActionDigests",
-    "group:rubyOnRails",
-    ":semanticCommits"
-  ],
-  "rebaseStalePrs": true,
-  "packageRules": [
-   "ruby": {
-      "fileMatch": [
-        "(^|/)Gemfile$",
-        "(^|/)Gemfile.lock$",
-      ],
-      "automerge": true
-    },
-    {
-      "fileMatch": [
-        "^(workflow-templates|\\.github\\/workflows)\\/[^/]+\\.ya?ml$",
-        "(^|\\/)action\\.ya?ml$"
-      ],
-      "updateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin"
-      ],
-      "automerge": true
-    }
-  ],
-  "labels": [
-    "renovate",
-    "dependency-update"
-  ]
+   "$schema":"https://docs.renovatebot.com/renovate-schema.json",
+   "extends":[
+      "config:base",
+      "helpers:pinGitHubActionDigests",
+      "group:rubyOnRails",
+      ":semanticCommits"
+   ],
+   "rebaseStalePrs":true,
+   "packageRules":[
+      {
+         "ruby":{
+            "fileMatch":[
+               "(^|/)Gemfile$",
+               "(^|/)Gemfile.lock$"
+            ],
+            "automerge":true
+         }
+      },
+      {
+         "fileMatch":[
+            "^(workflow-templates|\\.github\\/workflows)\\/[^/]+\\.ya?ml$",
+            "(^|\\/)action\\.ya?ml$"
+         ],
+         "updateTypes":[
+            "minor",
+            "patch",
+            "digest",
+            "pin"
+         ],
+         "automerge":true
+      }
+   ],
+   "labels":[
+      "renovate",
+      "dependency-update"
+   ]
 }
