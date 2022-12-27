@@ -9,6 +9,11 @@
   "rebaseStalePrs": true,
   "packageRules": [
     {
+      "fileMatch": [
+        "(^|/)Gemfile$",
+        "(^|/)Gemfile.lock$"
+      ],
+    "versioning": "ruby",
       "updateTypes": [
         "minor",
         "patch",
@@ -16,7 +21,7 @@
         "pin"
       ],
       "automerge": true
-    }
+    },
   ],
   "labels": ["renovate", "dependency-update"]
 }
