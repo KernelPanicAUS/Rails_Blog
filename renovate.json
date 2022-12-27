@@ -7,12 +7,7 @@
       ":semanticCommits"
    ],
    "rebaseStalePrs":true,
-   "ruby-version":{
-      "fileMatch":[
-         "(^|/)Gemfile$",
-         "(^|/)Gemfile.lock$"
-      ]
-   },
+   "bundler": { "enabled": true }
    "packageRules":[
       {
          "updateTypes":[
