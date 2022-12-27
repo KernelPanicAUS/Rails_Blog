@@ -95,7 +95,7 @@ GEM
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    pg (1.2.3)
+    pg (1.4.5)
     racc (1.6.2)
     rack (2.2.5)
     rack-test (2.0.2)
@@ -168,7 +168,7 @@ GEM
       sass (>= 3.2.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   coffee-rails
@@ -176,7 +176,7 @@ DEPENDENCIES
   pg
   rails
   sass-rails
-  sqlite3
+  sqlite3 (~> 1.5)
   uglifier
   zurb-foundation
 
