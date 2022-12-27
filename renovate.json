@@ -9,6 +9,8 @@
    "rebaseStalePrs": true,
    "packageRules": [
       {
+         "matchDepTypes": ["dependencies"], 
+         "rangeStrategy": "pin", 
          "updateTypes": [
             "minor",
             "patch",
