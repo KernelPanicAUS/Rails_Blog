@@ -16,6 +16,10 @@
       "versioning": "ruby"
     },
     {
+      "fileMatch": [
+        "^(workflow-templates|\\.github\\/workflows)\\/[^/]+\\.ya?ml$",
+        "(^|\\/)action\\.ya?ml$"
+      ]
       "updateTypes": [
         "minor",
         "patch",
