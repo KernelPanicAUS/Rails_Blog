@@ -7,7 +7,7 @@
       ":semanticCommits"
    ],
    "rebaseStalePrs":true,
-   "ruby":{
+   "bundler":{
       "fileMatch":[
          "(^|/)Gemfile$",
          "(^|/)Gemfile.lock$"
