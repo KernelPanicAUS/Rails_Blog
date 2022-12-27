@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7' # Not needed with a .ruby-version file
+       # ruby-version: '2.7' # Not needed with a .ruby-version file
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Build and test with Rake
