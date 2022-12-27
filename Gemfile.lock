@@ -168,14 +168,14 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  coffee-rails
-  jquery-rails
-  pg
-  rails
-  sass-rails
+  coffee-rails (~> 5.0)
+  jquery-rails (~> 4.5)
+  pg (~> 1.4)
+  rails (~> 6.1)
+  sass-rails (~> 6.0)
   sqlite3 (~> 1.5)
-  uglifier
-  zurb-foundation
+  uglifier (~> 4.2)
+  zurb-foundation (~> 4.3)
 
 BUNDLED WITH
    2.4.1
