@@ -20,7 +20,7 @@
         "pin"
       ],
       "automerge": true
-    },
+    }
   ],
   "labels": [
     "renovate",
