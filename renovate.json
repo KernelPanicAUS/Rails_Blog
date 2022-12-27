@@ -8,9 +8,11 @@
   ],
   "rebaseStalePrs": true,
   "packageRules": [
-   {
-      "matchDatasources": ["ruby"],
-      "versioning": "ruby",
+   "ruby": {
+      "fileMatch": [
+        "(^|/)Gemfile$",
+        "(^|/)Gemfile.lock$",
+      ],
       "automerge": true
     },
     {
