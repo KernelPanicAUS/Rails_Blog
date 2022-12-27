@@ -9,10 +9,6 @@
   "rebaseStalePrs": true,
   "packageRules": [
    {
-      "fileMatch": [
-        "(^|/)Gemfile$",
-        "(^|/)Gemfile.lock$"
-      ],
       "versioning": "ruby"
     },
     {
