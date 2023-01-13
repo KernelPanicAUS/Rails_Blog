@@ -111,7 +111,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10)
+    nokogiri (1.14.0)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pg (1.4.5)
@@ -193,7 +193,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 5.0)
   jquery-rails (~> 4.5)
-  nokogiri (~> 1.13)
+  nokogiri (~> 1.14)
   pg (~> 1.4)
   rails (~> 7.0)
   sass-rails (~> 6.0)
