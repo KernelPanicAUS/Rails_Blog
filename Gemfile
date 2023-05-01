@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', "~> 7.0"
+gem 'rails', '~> 7.0', '>= 7.0.4.3'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.6.2', force_ruby_platform: true
@@ -12,11 +12,11 @@ group :production do
 end
 
 group :assets do
-  gem "sass-rails", "~> 6.0"
-  gem "coffee-rails", "~> 5.0"
+  gem "sass-rails", "~> 6.0", ">= 6.0.0"
+  gem "coffee-rails", "~> 5.0", ">= 5.0.0"
   gem "zurb-foundation", "~> 4.3"
   gem "uglifier", "~> 4.2"
 end
 
-gem "jquery-rails", "~> 4.5"
+gem "jquery-rails", "~> 4.5", ">= 4.5.1"
 
