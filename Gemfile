@@ -18,5 +18,5 @@ group :assets do
   gem "uglifier", "~> 4.2"
 end
 
-gem "jquery-rails", "~> 4.5"
+gem "jquery-rails", "~> 4.6"
 
