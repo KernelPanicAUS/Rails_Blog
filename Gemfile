@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', "~> 7.1"
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.6.6', force_ruby_platform: true
+  gem 'sqlite3', '~> 1.6.7', force_ruby_platform: true
 end
 
 group :production do
