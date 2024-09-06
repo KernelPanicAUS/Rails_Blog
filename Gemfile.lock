@@ -174,7 +174,7 @@ GEM
       ffi (~> 1.0)
     rdoc (6.7.0)
       psych (>= 4.0.0)
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
