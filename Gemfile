@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', "~> 7.2"
+gem 'rails', "~> 8.0"
 
 group :development, :test do
   gem 'sqlite3', '~> 2.2.0', force_ruby_platform: true
