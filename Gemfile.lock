@@ -212,7 +212,7 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     uri (1.0.2)
-    useragent (0.16.10)
+    useragent (0.16.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
