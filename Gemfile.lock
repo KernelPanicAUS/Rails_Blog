@@ -209,7 +209,7 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.7.2)
+    sqlite3 (2.7.3)
       mini_portile2 (~> 2.8.0)
     stringio (3.1.7)
     thor (1.4.0)
@@ -239,7 +239,7 @@ DEPENDENCIES
   pg (~> 1.5)
   rails (~> 8.0)
   sass-rails (~> 6.0)
-  sqlite3 (~> 2.7.2)
+  sqlite3 (~> 2.7.3)
   uglifier (~> 4.2)
   zurb-foundation (~> 4.3)
 
