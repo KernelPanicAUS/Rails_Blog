@@ -7,7 +7,7 @@ group :development, :test do
 end
 
 group :production do
-  gem "pg", "~> 1.5"
+  gem "pg", "~> 1.6"
   gem "nokogiri", "~> 1.18", force_ruby_platform: true
 end
 
