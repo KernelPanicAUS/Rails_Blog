@@ -123,7 +123,7 @@ GEM
     mini_portile2 (2.8.9)
     minitest (6.0.0)
       prism (~> 1.5)
-    net-imap (0.6.0)
+    net-imap (0.6.2)
       date
       net-protocol
     net-pop (0.1.2)
