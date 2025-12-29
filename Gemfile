@@ -8,7 +8,7 @@ end
 
 group :production do
   gem "pg", "~> 1.6"
-  gem "nokogiri", "~> 1.18", force_ruby_platform: true
+  gem "nokogiri", "~> 1.19", force_ruby_platform: true
 end
 
 group :assets do
